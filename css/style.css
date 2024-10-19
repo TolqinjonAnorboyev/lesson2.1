@@ -8,7 +8,7 @@ body {
   background-color: #fff;
 }
 
-image {
+img {
   width: 100%;
   height: 100%;
 }
@@ -34,6 +34,11 @@ image {
   width: 1370px;
   margin: 0 auto;
   cursor: pointer;
+}
+
+.icon {
+  width: 92px;
+  height: 37px;
 }
 
 .nav_list {
@@ -193,13 +198,22 @@ image {
   text-align: center;
   margin-top: 20px;
 }
-.jahon{
+
+.jahon_container {
   display: flex;
   width: 1000px;
   margin: 0 auto;
-  gap: 100px;
-  padding: 20px 0;
+  gap: 30px;
 }
+
+.jahon {
+  display: flex;
+  width: 700px;
+  margin: 0 auto;
+  gap: 100px;
+  padding: 10px 0;
+}
+
 .news_h3 {
   transition: color 0.2s ease;
   font-size: 22px;
@@ -210,17 +224,172 @@ image {
   margin-top: 6px;
   width: 400px;
 }
-.news_h3:hover{
+
+.news_h3:hover {
   color: blue;
 }
-.bx_item{
+
+.bx_item {
   display: flex;
   gap: 5px;
-  margin-bottom:10px ;
+  margin-bottom: 10px;
 }
-.bx{
+
+.bx {
   color: blue;
 }
-img{
+
+img {
   width: 200px;
+}
+
+.jahon_content {
+  background-color: #e2f1f6;
+  padding: 28px 26px 28px 27px;
+  transition: transform 0.2s ease;
+  position: relative;
+  transition: all 0.2s ease;
+  z-index: 1;
+  box-shadow: 10px 10px 0px 0px transparent;
+  width: 300px;
+  margin-bottom: 14px;
+}
+
+.jahon_content_b {
+  background-color: #e2f6eb;
+  padding: 28px 26px 28px 27px;
+  transition: transform 0.2s ease;
+  position: relative;
+  transition: all 0.2s ease;
+  z-index: 1;
+  box-shadow: 10px 10px 0px 0px transparent;
+  width: 300px;
+  margin-bottom: 14px;
+}
+
+.jahon_content_a {
+  background-color: #f6eee2;
+  padding: 28px 26px 28px 27px;
+  transition: transform 0.2s ease;
+  position: relative;
+  transition: all 0.2s ease;
+  z-index: 1;
+  box-shadow: 10px 10px 0px 0px transparent;
+  width: 300px;
+  margin-bottom: 14px;
+}
+
+.jahon_title {
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 800;
+  color: #000;
+  margin-top: 10px;
+  margin-bottom: 19px;
+}
+
+.jahon_h3 {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.jahon_text {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: var(--black);
+  margin-bottom: 0;
+  width: 247px;
+}
+
+.messages_h3 {
+  font-size: 32px;
+  line-height: 120%;
+  font-weight: 700;
+  color: var(--black);
+  margin-bottom: 13px;
+  margin-top: 15px;
+  cursor: pointer;
+  padding-left: 40px;
+}
+
+#messages {
+  display: flex;
+  padding: 0 40px;
+  gap: 35px;
+}
+
+.messag {
+  width: 700px;
+}
+
+.messag_img {
+  width: 720px;
+  height: 384px;
+  margin-bottom: 10px;
+}
+
+.messag_h3 {
+  font-size: 25px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #000;
+  width: 664px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.messag_text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 0;
+  width: 600px;
+  cursor: pointer;
+}
+.messages_h3:hover{
+  color: blue;
+}
+.messag_h3:hover{
+ color: blue;
+}
+.messag_container{
+  width: 312px;
+  height: 238px;
+  cursor: pointer;
+}
+.messag_contents{
+  width: 312px;
+}
+.messag_h4{
+  transition: color 0.2s ease;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600;
+  color: #000;
+  margin-top: 9px; 
+  margin-bottom: 20px;
+  cursor: pointer;
+  width: 312px;
+}
+.messag_h4:hover{
+  color: blue;
+}
+.messages_img{
+  width: 312px;
+  height: 207px;
+}
+.messages_container{
+  width: 312px;
+}
+.messages_content{
+  width: 312px;
+}
+.lorem{
+  display: flex;
 }
