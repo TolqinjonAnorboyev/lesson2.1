@@ -19,15 +19,22 @@ body {
   background-color: #fff;
 }
 
-img {
-  width: 100%;
-  height: auto;
+#img {
+  width: 1400px;
+  margin: 0 auto;
 }
 
-.reklama {
+.aside_container {
   width: 100%;
   height: auto;
   border: 0px;
+  vertical-align: middle;
+  max-width: 1400px;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 .site_header {
@@ -40,6 +47,8 @@ img {
   background-color: #fff;
   justify-content: space-between;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  align-items: center;
 }
 
 #hero_bottom {
@@ -597,13 +606,16 @@ img {
   position: relative;
   padding: 30px 0 28px 0;
 }
+
 .captiona_img {
   width: 325px;
   border-radius: 10px;
 }
- .icon_v{
+
+.icon_v {
   color: #9f9f9f;
- }
+}
+
 .h5 {
   overflow: hidden !important;
   word-break: normal;
