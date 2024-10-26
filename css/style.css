@@ -19,17 +19,14 @@ body {
   background-color: #fff;
 }
 
-#img {
-  width: 1400px;
-  margin: 0 auto;
+.aside_container {
+ padding: 0 40px;
+ width: 1400px;
 }
 
-.aside_container {
-  width: 100%;
+.aside_img {
+  width: 1400px;
   height: auto;
-  border: 0px;
-  vertical-align: middle;
-  max-width: 1400px;
 }
 
 img {
@@ -37,12 +34,7 @@ img {
   height: auto;
 }
 
-.site_header {
-  padding: 0 40px;
-}
-
 #hero {
-  width: 1400px;
   border-radius: 5px;
   background-color: #fff;
   justify-content: space-between;
@@ -50,13 +42,15 @@ img {
   margin: 0 auto;
   align-items: center;
 }
-
 #hero_bottom {
   padding: 0 40px;
   margin-bottom: 10px;
   width: 1400px;
 }
-
+.site_header{
+  width: 1400px;
+  padding: 0 40px;
+}
 .container {
   display: flex;
   align-items: center;
