@@ -491,7 +491,10 @@ img {
   width: 330px;
   height: 200px;
 }
-
+.icon_a{
+  padding-top: 150px;
+  font-size: 40px;
+}
 .item_s {
   font-size: 12px;
   font-weight: bold;
